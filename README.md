@@ -2,20 +2,20 @@
 
 ### Notice
 
-only support motor: GO-M8010-6 motor
+We are making and everything is air ...
 
-not support motor: A1 motor、 B1 motor (Check A1B1 branch for support)
 
 ### Build
 ```bash
-mkdir build
-cd build
-cmake ..
-make
+make build
 ```
 
 ### Run
-Run examples with 'sudo',e.g.
 ```bash
-sudo ./motorctrl
+make run
+```
+
+### Clean
+```bash
+make clean
 ```
