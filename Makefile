@@ -27,9 +27,9 @@ clean:
 # 运行程序（假设生成的可执行文件在 build 目录下）
 run:
 	@if [ -d "build" ]; then \
-		cd build && ./$(TARGET); \
+		cd build && make && ./$(TARGET); \
 	else \
 		echo "Build directory does not exist. Run 'make build' first."; \
 		$(MAKE) build; \
-		cd build && ./$(TARGET); \
+		cd build && make &&./$(TARGET); \
 	fi

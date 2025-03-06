@@ -1,0 +1,3 @@
+/home/dog/air-dog/build/CMakeFiles/dlmu-dog.dir
+/home/dog/air-dog/build/CMakeFiles/edit_cache.dir
+/home/dog/air-dog/build/CMakeFiles/rebuild_cache.dir
