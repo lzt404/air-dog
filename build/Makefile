@@ -153,6 +153,30 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/dlmu-dog.dir/build.make CMakeFiles/dlmu-dog.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+src/misc.o: src/misc.cpp.o
+.PHONY : src/misc.o
+
+# target to build an object file
+src/misc.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dlmu-dog.dir/build.make CMakeFiles/dlmu-dog.dir/src/misc.cpp.o
+.PHONY : src/misc.cpp.o
+
+src/misc.i: src/misc.cpp.i
+.PHONY : src/misc.i
+
+# target to preprocess a source file
+src/misc.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dlmu-dog.dir/build.make CMakeFiles/dlmu-dog.dir/src/misc.cpp.i
+.PHONY : src/misc.cpp.i
+
+src/misc.s: src/misc.cpp.s
+.PHONY : src/misc.s
+
+# target to generate assembly for a file
+src/misc.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dlmu-dog.dir/build.make CMakeFiles/dlmu-dog.dir/src/misc.cpp.s
+.PHONY : src/misc.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -165,6 +189,9 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... src/misc.o"
+	@echo "... src/misc.i"
+	@echo "... src/misc.s"
 .PHONY : help
 
 

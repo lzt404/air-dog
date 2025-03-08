@@ -81,12 +81,12 @@ clean: CMakeFiles/dlmu-dog.dir/clean
 CMakeFiles/dlmu-dog.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/dlmu-dog.dir/build.make CMakeFiles/dlmu-dog.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/dlmu-dog.dir/build.make CMakeFiles/dlmu-dog.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/dog/air-dog/build/CMakeFiles --progress-num=1,2 "Built target dlmu-dog"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/dog/air-dog/build/CMakeFiles --progress-num=1,2,3 "Built target dlmu-dog"
 .PHONY : CMakeFiles/dlmu-dog.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/dlmu-dog.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/dog/air-dog/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/dog/air-dog/build/CMakeFiles 3
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/dlmu-dog.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/dog/air-dog/build/CMakeFiles 0
 .PHONY : CMakeFiles/dlmu-dog.dir/rule

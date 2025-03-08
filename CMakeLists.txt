@@ -14,7 +14,7 @@ file(GLOB SRCS
 )
 
 #主程序
-add_executable(dlmu-dog ../main.cpp)
+add_executable(dlmu-dog ../main.cpp ../src/misc.cpp)
 target_link_libraries(dlmu-dog libUnitreeMotorSDK_M80106_Arm64.so)
 
 # #stop 工程

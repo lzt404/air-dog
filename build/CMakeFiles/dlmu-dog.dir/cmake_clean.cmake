@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/dlmu-dog.dir/main.cpp.o"
   "CMakeFiles/dlmu-dog.dir/main.cpp.o.d"
+  "CMakeFiles/dlmu-dog.dir/src/misc.cpp.o"
+  "CMakeFiles/dlmu-dog.dir/src/misc.cpp.o.d"
   "dlmu-dog"
   "dlmu-dog.pdb"
 )

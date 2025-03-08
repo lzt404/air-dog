@@ -1,0 +1,12 @@
+[
+{
+  "directory": "/home/dog/air-dog/build",
+  "command": "/usr/bin/aarch64-linux-gnu-g++ -I/home/dog/air-dog/include  -std=c++11 -O3 -g -o CMakeFiles/dlmu-dog.dir/main.cpp.o -c /home/dog/air-dog/main.cpp",
+  "file": "/home/dog/air-dog/main.cpp"
+},
+{
+  "directory": "/home/dog/air-dog/build",
+  "command": "/usr/bin/aarch64-linux-gnu-g++ -I/home/dog/air-dog/include  -std=c++11 -O3 -g -o CMakeFiles/dlmu-dog.dir/src/misc.cpp.o -c /home/dog/air-dog/src/misc.cpp",
+  "file": "/home/dog/air-dog/src/misc.cpp"
+}
+]

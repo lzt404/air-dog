@@ -1,1 +1,1 @@
-/usr/bin/c++  -std=c++11 -O3 "CMakeFiles/dlmu-dog.dir/main.cpp.o" -o dlmu-dog   -L/home/dog/air-dog/lib  -Wl,-rpath,/home/dog/air-dog/lib -lUnitreeMotorSDK_M80106_Arm64 
+/usr/bin/c++  -std=c++11 -O3 "CMakeFiles/dlmu-dog.dir/main.cpp.o" "CMakeFiles/dlmu-dog.dir/src/misc.cpp.o" -o dlmu-dog   -L/home/dog/air-dog/lib  -Wl,-rpath,/home/dog/air-dog/lib -lUnitreeMotorSDK_M80106_Arm64 

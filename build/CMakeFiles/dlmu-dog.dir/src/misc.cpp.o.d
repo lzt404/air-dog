@@ -1,4 +1,4 @@
-CMakeFiles/dlmu-dog.dir/main.cpp.o: /home/dog/air-dog/main.cpp \
+CMakeFiles/dlmu-dog.dir/src/misc.cpp.o: /home/dog/air-dog/src/misc.cpp \
  /usr/include/stdc-predef.h \
  /home/dog/air-dog/include/serialPort/SerialPort.h /usr/include/termios.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -198,5 +198,4 @@ CMakeFiles/dlmu-dog.dir/main.cpp.o: /home/dog/air-dog/main.cpp \
  /usr/include/c++/12/bits/stl_uninitialized.h \
  /usr/include/c++/12/bits/stl_vector.h \
  /usr/include/c++/12/bits/stl_bvector.h \
- /usr/include/c++/12/bits/vector.tcc /home/dog/air-dog/include/misc.h \
- /home/dog/air-dog/include/serialPort/SerialPort.h
+ /usr/include/c++/12/bits/vector.tcc
