@@ -10,6 +10,7 @@ extern MotorData   data;
 extern SerialPort  serial;
 
 void all_init();
-void all_zero_moment_mode();
+void set_zero_moment_mode(int id);
+
 #endif
 
